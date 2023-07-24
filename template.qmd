@@ -1,0 +1,49 @@
+---
+title: "Report Title"
+subtitle: "Subtitle"
+author: "Data and Performance Team (OEWD)"
+date: "`r Sys.Date()`"
+self-contained: true
+format:
+  oewd-report-html: default
+output-file: "REPORT_TITLE"
+execute: 
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+library(gt)
+library(tidyverse)
+```
+
+# Overview
+
+Unordered list:
+
+-   Item 1
+-   Item 2
+
+::: callout-note
+This is a callout note.
+:::
+
+# Analysis
+
+```{r}
+#| fig.cap: 'Figure 1: MPG vs horsepower, colored by transmission.'
+mtcars2 <- mtcars
+mtcars2$am <- factor(
+  mtcars$am, labels = c('automatic', 'manual')
+)
+ggplot(mtcars2, aes(hp, mpg, color = am)) +
+  geom_point() + geom_smooth() +
+  theme(legend.position = 'bottom')
+```
+
+# About this Report
+
+This HTML report was created with [Quarto.](https://quarto.org/) The data within is self-contained and cannot be updated automatically. If you bookmark the report within your browser, be aware that the bookmark URL references a file path on your computer; moving the document to a different location will break the bookmark.
+
+![](_extensions/oewd-report/assets/OEWD%20Circle%20Logo.png){fig-align="center" width="225"}
