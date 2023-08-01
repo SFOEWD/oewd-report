@@ -29,6 +29,12 @@ Unordered list:
 This is a callout note.
 :::
 
+Icons from the SF Design System are available via shortcode:
+
+{{< sficon wip >}}
+
+{{< sficon globe color=green >}}
+
 # Analysis
 
 ```{r}
