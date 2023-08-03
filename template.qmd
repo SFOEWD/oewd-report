@@ -52,4 +52,4 @@ ggplot(mtcars2, aes(hp, mpg, color = am)) +
 
 This HTML report was created with [Quarto.](https://quarto.org/) The data within is self-contained and cannot be updated automatically. If you bookmark the report within your browser, be aware that the bookmark URL references a file path on your computer; moving the document to a different location will break the bookmark.
 
-![](_extensions/oewd-report/assets/OEWD%20Circle%20Logo.png){fig-align="center" width="225"}
+![](_extensions/SFOEWD/oewd-report/assets/OEWD%20Circle%20Logo.png){fig-align="center" width="225"}
