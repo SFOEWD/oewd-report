@@ -3,7 +3,7 @@ title: "Report Title"
 subtitle: "Subtitle"
 author: "Data and Performance Team (OEWD)"
 date: "`r Sys.Date()`"
-self-contained: true
+embed-resources: true
 format:
   oewd-report-html: default
 output-file: "REPORT_TITLE"
