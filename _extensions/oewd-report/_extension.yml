@@ -7,5 +7,4 @@ contributes:
     html:
       toc: true
       theme: [yeti, custom.scss]
-
-
+      code-block-bg: "#e8e8e8"
