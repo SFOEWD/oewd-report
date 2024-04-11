@@ -6,5 +6,6 @@ contributes:
   formats:
     html:
       toc: true
+      toc-title: "Navigation"
       theme: [yeti, custom.scss]
       code-block-bg: "#e8e8e8"
